@@ -1,0 +1,55 @@
+/* 
+deep purple: #9b287b
+picton blue: #48acf0
+baby powder: #fdfdfd
+jet black: #2f2f2f
+misty rose: #ffe6ea
+*/
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	color: #777;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	line-height: 1.7;
+}
+
+.header {
+	align-items: center;
+	background-color: #2f2f2f;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 50vh;
+}
+
+.header__logo {
+	letter-spacing: .5em;
+	text-transform: uppercase;
+}
+
+.header__logo span {
+	color: #9b287b;
+}
+
+.header__menu {
+	display: inline-flex;
+	position: relative;
+	top: 4em;
+}
+
+.header__menu__items {
+	text-transform: uppercase;
+	padding: 0 1em;
+	list-style: none;
+}

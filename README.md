@@ -7,7 +7,7 @@
 - [] ~~CRA~~
 - [x] NextJS
 
-###	Layout template -> inspire from:
+###	Layout template -> mobile first design -> inspire from:
 - https://dribbble.com/shots/3573101-Ooh-lah-Lash-Website-Re-Design-Branding
 - https://www.motocms.com/website-templates/motocms-3-template/66395.html
 
