@@ -7,13 +7,19 @@
 - [] ~~CRA~~
 - [x] NextJS
 
+---
+
 ### 2. Back end
 - [x] NodeJS
 	- [x] ExpressJS
 
+---
+
 ### 3. Database
 - [] NoSQL:
-	- [] MongoDB
+	- [x] MongoDB -> for users accounts
 - [] SQL:
 	- [] MySQL
 	- [] PostgresQL
+
+---
