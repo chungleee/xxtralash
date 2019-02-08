@@ -1,1 +1,5 @@
-# xxtralash
+#	XXTRALASH website 
+
+---
+
+## Project setup
