@@ -3,9 +3,9 @@
 ## Project setup
 
 ###	1. Front end -> choose between:
-- [] GatsbyJS
-- [] CRA
-- [] NextJS
+- [] ~~GatsbyJS~~
+- [] ~~CRA~~
+- [x] NextJS
 
 ### 2. Back end
 - [x] NodeJS
