@@ -61,7 +61,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .header__menu__items {
-	color: #ffe6ea;
+	/* color: #ffe6ea; */
 	list-style: none;
 	padding: 0 1em;
 	text-transform: uppercase;
@@ -75,12 +75,14 @@ a:link, a:visited, a:hover, a:active {
 
 .booking {
 	background-color: #ffe6ea;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 2.5em;
 	font-size: .8em;
-	text-align: center;
 	text-transform: uppercase;
 }
 
-.booking a {
-
+.booking__button {
+	color: #5e5e5e;
 }
