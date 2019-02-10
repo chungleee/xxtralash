@@ -66,6 +66,7 @@ a:link, a:visited, a:hover, a:active {
 
 .header__menu__items {
 	font-size: .9em;
+	letter-spacing: .2em;
 	list-style: none;
 	padding: 0 1em;
 	text-transform: uppercase;
@@ -89,6 +90,7 @@ a:link, a:visited, a:hover, a:active {
 
 .booking__button {
 	color: #5e5e5e;
+	letter-spacing: .2em;
 }
 
 /* MAIN MENU ITEMS */
