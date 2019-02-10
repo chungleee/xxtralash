@@ -6,6 +6,8 @@ jet black: #2f2f2f
 misty rose: #ffe6ea
 */
 
+/* GLOBAL */
+
 *, *::before, *::after {
 	margin: 0;
 	padding: 0;
@@ -23,6 +25,12 @@ body {
 	font-size: 2em;
 	line-height: 1.7;
 }
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+/* HEADER */
 
 .header {
 	align-items: center;
@@ -59,7 +67,20 @@ body {
 	text-transform: uppercase;
 }
 
-.header__menu__items a:link, a:visited, a:hover, a:active {
+.header__menu__items a {
 	color: #ffe6ea;
-	text-decoration: none;
+}
+
+/* APPOINTMENT REMINDER */
+
+.booking {
+	background-color: #ffe6ea;
+	height: 2.5em;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.booking a {
+
 }
