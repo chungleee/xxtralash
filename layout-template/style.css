@@ -26,6 +26,10 @@ body {
 	line-height: 1.7;
 }
 
+li {
+	list-style: none;
+}
+
 a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
@@ -85,4 +89,40 @@ a:link, a:visited, a:hover, a:active {
 
 .booking__button {
 	color: #5e5e5e;
+}
+
+/* MAIN MENU ITEMS */
+
+.main {
+	background-color: #fdfdfd;
+}
+
+.main__menu li:nth-child(2) {
+	border: 1px solid #f8c4cd;
+}
+
+.main__menu li:nth-child(2) div {
+	color: #9b287b;
+}
+
+.main__menu__items {
+	border: 1px solid #9b287b;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 6em;
+	margin: 1em auto;
+	width: 15em;
+	text-transform: uppercase;
+}
+
+.main__menu__items a {
+	color: #5e5e5e;
+	font-size: 1em;
+}
+
+.main__menu_items_keyword {
+	color: #e7b1ba;
+	text-align: center;
 }
