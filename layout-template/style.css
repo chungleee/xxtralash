@@ -61,7 +61,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .header__menu__items {
-	/* color: #ffe6ea; */
+	font-size: .9em;
 	list-style: none;
 	padding: 0 1em;
 	text-transform: uppercase;
