@@ -129,3 +129,27 @@ a:link, a:visited, a:hover, a:active {
 	color: #e7b1ba;
 	text-align: center;
 }
+
+/* FOOTER */
+
+.footer {
+	background-color: #2f2f2f;
+	color: #ffe6ea;
+	font-size: .7em;
+	padding: 1em;
+}
+
+.address {
+	text-align: center;
+}
+
+.footer ul {
+	display: flex;
+	padding: .3em;
+	justify-content: center;
+}
+
+.icons {
+	color: #ffe6ea;
+	margin: 0 .5em;
+}
