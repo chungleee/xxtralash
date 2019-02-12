@@ -11,6 +11,10 @@
 - https://dribbble.com/shots/3573101-Ooh-lah-Lash-Website-Re-Design-Branding
 - https://www.motocms.com/website-templates/motocms-3-template/66395.html
 
+### Color palettes:
+-	https://www.design-seeds.com/slow-lifestyle/color-type/
+-	https://www.design-seeds.com/edible-hues/sweet-tooth/sweet-tones-5/
+
 ---
 
 ### 2. Back end
