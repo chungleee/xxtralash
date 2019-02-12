@@ -42,7 +42,7 @@ a:link, a:visited, a:hover, a:active {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: 50vh;
+	height: 40vh;
 	background: linear-gradient(to right, #9b287b, #ffe6ea)
 }
 
@@ -50,7 +50,8 @@ a:link, a:visited, a:hover, a:active {
 	color: #ffe6ea;
 	font-family: 'Proza Libre', sans-serif;
 	font-weight: 700;
-	letter-spacing: .5em;
+	font-size: 2em;
+	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
 
@@ -61,11 +62,11 @@ a:link, a:visited, a:hover, a:active {
 .header__menu {
 	display: inline-flex;
 	position: relative;
-	top: 4em;
+	top: 3em;
 }
 
 .header__menu__items {
-	font-size: .9em;
+	font-size: .7em;
 	letter-spacing: .2em;
 	list-style: none;
 	padding: 0 1em;
