@@ -3,10 +3,46 @@
 	padding: 0;
 }
 
-html {
-	font-size: 62.5%;
-}
-
 body {
 	box-sizing: border-box;
+}
+
+.header-hero {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.header-hero h1 {
+	font-size: 2.4rem;
+	line-height: 1.5;
+	position: relative;
+	width: 5em;
+	text-transform: uppercase;
+	top: 12.5rem;
+	left: 1rem;
+}
+
+.navigation	{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	height: 3rem;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.logo {
+	padding: 1rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+
+.burger {
+	height: .35rem;
+	width: 3rem;
+	background-color: black;
+	margin: 0.5rem 0;
 }
