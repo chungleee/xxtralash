@@ -1,11 +1,16 @@
+/* GLOBAL STYLING */
+
 *, *::before, *::after {
 	margin: 0;
 	padding: 0;
+	box-sizing: inherit;
 }
 
 body {
 	box-sizing: border-box;
 }
+
+/* HEADER */
 
 .header-hero {
 	background-position: center;
@@ -24,6 +29,8 @@ body {
 	left: 1rem;
 }
 
+/* NAVIGATION */
+
 .navigation	{
 	background-color: white;
 	display: flex;
@@ -35,14 +42,35 @@ body {
 }
 
 .logo {
-	padding: 1rem;
+	padding: 0 1rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 }
 
+.hamburger {
+	margin-left: auto;
+	padding: 0 1rem;
+}
+
 .burger {
-	height: .35rem;
-	width: 3rem;
+	height: .1rem;
+	width: 2rem;
 	background-color: black;
 	margin: 0.5rem 0;
+}
+
+/* MAIN SECTION */
+
+.main-desc {
+	padding: 3rem 1rem;
+}
+
+.main-desc h1, .main-desc h3 {
+	letter-spacing: .2rem;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+}
+
+.main-desc h3 {
+	font-size: .9rem;
 }
