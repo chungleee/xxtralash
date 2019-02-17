@@ -74,3 +74,21 @@ body {
 .main-desc h3 {
 	font-size: .9rem;
 }
+
+.services {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.services-card {
+	border: 1px solid black;
+	border-radius: 15% 0 15% 0;
+	height: 15rem;
+	list-style: none;
+	margin-bottom: 1rem;
+	padding: 1.5rem;
+	text-align: center;
+	text-transform: uppercase;
+	width: 21.5rem;
+}
