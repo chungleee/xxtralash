@@ -84,11 +84,23 @@ body {
 .services-card {
 	border: 1px solid black;
 	border-radius: 15% 0 15% 0;
-	height: 15rem;
+	/* height: 15rem; */
 	list-style: none;
 	margin-bottom: 1rem;
 	padding: 1.5rem;
 	text-align: center;
-	text-transform: uppercase;
 	width: 21.5rem;
+}
+
+.services-card-title {
+	text-transform: uppercase;
+}
+
+.service-card-img {
+	background-position: center;
+	background-size: cover;
+	border: 1px solid black;
+	margin: 1rem auto;
+	height: 135px;
+	width: 135px;
 }
