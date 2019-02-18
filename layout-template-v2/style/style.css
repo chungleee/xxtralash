@@ -88,7 +88,7 @@ body {
 }
 
 .main-desc {
-	padding: 3rem 1rem;
+	padding: 3rem 1.5rem;
 }
 
 .main-desc h1, .main-desc h3 {
@@ -138,4 +138,38 @@ body {
 	margin: 1rem auto;
 	height: 150px;
 	width: 150px;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: #30353A;
+	color: #f7f7f7cc;
+	display: flex;
+	flex-direction: column;
+	padding: 3rem 1.5rem;
+	min-height: calc(100vh - 4rem);
+}
+
+.footer div {
+	margin: auto 0;
+}
+
+.footer-question {
+	line-height: 1.7;
+	text-transform: uppercase;
+}
+
+.footer-question h1 {
+	color: #d67471;
+}
+
+.footer-contact-address {
+	font-size: 1.3rem;
+	line-height: 1.7;
+}
+
+.footer-contact-address i {
+	color: #d67471;
+	margin-right: .5rem;
 }
