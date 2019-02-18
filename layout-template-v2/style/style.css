@@ -1,3 +1,20 @@
+/* 
+dark navy: #30364D
+black: #212420
+offblack: #30353A
+darkbeige: #938677
+lightbeige: #CFC4B2
+lightgrey: #E6E6E7
+*/
+
+/* 
+	lightpink: #F3E0E0
+	darkpink: #DBB9B8
+	darkgrey: #CFC9CE
+	midgrey: #DDDADA
+	lightgrey: #F1EBEA
+*/
+
 /* GLOBAL STYLING */
 
 *, *::before, *::after {
@@ -11,6 +28,10 @@ body {
 }
 
 /* HEADER */
+
+.header {
+	color: #30353A;
+}
 
 .header-hero {
 	background-position: center;
@@ -32,10 +53,10 @@ body {
 /* NAVIGATION */
 
 .navigation	{
-	background-color: white;
+	background-color: #F1EBEA;
 	display: flex;
 	align-items: center;
-	height: 3rem;
+	height: 4rem;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -61,6 +82,11 @@ body {
 
 /* MAIN SECTION */
 
+.main {
+	background-color: rgba(219, 185, 184, 0.616);
+	color: #30353A;
+}
+
 .main-desc {
 	padding: 3rem 1rem;
 }
@@ -75,6 +101,14 @@ body {
 	font-size: .9rem;
 }
 
+.call-to-action {
+	color: #d67471;
+}
+
+.services-list {
+	color: rgb(167, 163, 167);
+}
+
 .services {
 	display: flex;
 	flex-direction: column;
@@ -82,17 +116,18 @@ body {
 }
 
 .services-card {
-	border: 1px solid black;
+	background-color: hsla(0, 44%, 92%, 0.68);
 	border-radius: 15% 0 15% 0;
-	/* height: 15rem; */
 	list-style: none;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 	padding: 1.5rem;
 	text-align: center;
 	width: 21.5rem;
 }
 
 .services-card-title {
+	color: #d67471;
+	letter-spacing: 0.2rem;
 	text-transform: uppercase;
 }
 
@@ -101,6 +136,6 @@ body {
 	background-size: cover;
 	border: 1px solid black;
 	margin: 1rem auto;
-	height: 135px;
-	width: 135px;
+	height: 150px;
+	width: 150px;
 }
