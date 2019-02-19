@@ -27,6 +27,10 @@ body {
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* HEADER */
 
 .header {
@@ -172,4 +176,21 @@ body {
 .footer-contact-address i {
 	color: #d67471;
 	margin-right: .5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 576px) {
+	.header-hero h1 {
+		left: 3rem;
+	}
+
+	.services-card {
+		width: calc(100% - 3rem);
+	}
+
+	.service-card-img {
+		height: 225px;
+		width: 225px;
+	}
 }
