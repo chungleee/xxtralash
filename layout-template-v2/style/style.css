@@ -194,3 +194,19 @@ a {
 		width: 225px;
 	}
 }
+
+@media (min-width: 768px) {
+	.services {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.services-card {
+		margin: 1.5rem auto;
+		width: 21.5rem;
+	}
+
+	.footer {
+		text-align: center;
+	}
+}
