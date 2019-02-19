@@ -212,6 +212,10 @@ a {
 }
 /* large */
 @media (min-width:992px) {
+	.logo {
+		padding-left: 2.5rem;
+	}
+
 	.main-desc {
 		text-align: center;
 	}
@@ -221,6 +225,10 @@ a {
 }
 /* xtra large */
 @media (min-width: 1200px) {
+	.logo {
+		padding-left: 3rem;
+	}
+
 	.services-card {
 		width: 35rem;
 	}
