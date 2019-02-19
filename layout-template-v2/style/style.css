@@ -179,7 +179,7 @@ a {
 }
 
 /* MEDIA QUERIES */
-
+/* small */
 @media (min-width: 576px) {
 	.header-hero h1 {
 		left: 3rem;
@@ -194,7 +194,7 @@ a {
 		width: 225px;
 	}
 }
-
+/* medium */
 @media (min-width: 768px) {
 	.services {
 		flex-direction: row;
@@ -208,5 +208,20 @@ a {
 
 	.footer {
 		text-align: center;
+	}
+}
+/* large */
+@media (min-width:992px) {
+	.main-desc {
+		text-align: center;
+	}
+	.services-card {
+		width: 30rem;
+	}
+}
+/* xtra large */
+@media (min-width: 1200px) {
+	.services-card {
+		width: 35rem;
 	}
 }
