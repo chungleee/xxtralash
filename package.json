@@ -2,6 +2,9 @@
   "name": "xxtralash",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "repository": "git@github.com:chungleee/xxtralash.git",
   "author": "Leon <leon.karho.chung@gmail.com>",
   "license": "MIT",
