@@ -67,6 +67,7 @@ a {
 }
 
 .logo {
+	color: #30353A;
 	padding: 0 1rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
