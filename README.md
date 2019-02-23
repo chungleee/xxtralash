@@ -5,7 +5,8 @@
 ###	1. Front end -> choose between:
 - [] ~~GatsbyJS~~
 - [] ~~CRA~~
-- [x] NextJS
+- [] ~~NextJS~~
+-	[x] EJS with Express Server
 
 ###	Layout template -> mobile first design -> inspire from:
 - ~~https://dribbble.com/shots/3573101-Ooh-lah-Lash-Website-Re-Design-Branding~~
