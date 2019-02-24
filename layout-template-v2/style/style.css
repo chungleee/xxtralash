@@ -73,6 +73,10 @@ a {
 	letter-spacing: .2rem;
 }
 
+.navigation-menu {
+	display: none;
+}
+
 .hamburger {
 	margin-left: auto;
 	padding: 0 1rem;
@@ -215,6 +219,23 @@ a {
 @media (min-width:992px) {
 	.logo {
 		padding-left: 2.5rem;
+	}
+
+	.navigation-menu {
+		display: flex;
+		list-style: none;
+		margin-left: auto;
+		padding-right: 2.5rem;
+	}
+
+	.navigation-menu li {
+		margin-right: 2rem;
+		text-transform: uppercase;
+		letter-spacing: .2rem;
+	}
+
+	.hamburger {
+		display: none;
 	}
 
 	.main-desc {
