@@ -17,24 +17,24 @@
 		>
 			<h1>give your lashes a new life</h1>
 		</div>
-	</header>
 	<!-- FIXED NAV -->
-	<nav class="navigation">
-		<a href="#" class="logo">xxtralash</a>
+		<nav class="navigation">
+			<a href="#" class="logo">xxtralash</a>
 
-		<!-- menu - hidden when mobile -->
-		<ul class="navigation-menu">
-				<li><a href="#main">services</a></li>
-				<li><a href="#book">book</a></li>
-				<li><a href="#footer">contact</a></li>
-		</ul>
+			<!-- menu - hidden when mobile -->
+			<ul id='navMenu' class="navigation-menu">
+					<li><a href="#main">services</a></li>
+					<li><a href="#book">book</a></li>
+					<li><a href="#footer">contact</a></li>
+			</ul>
 
-		<div class="hamburger">
-			<div class="burger"></div>
-			<div class="burger"></div>
-			<div class="burger"></div>
-		</div>
-	</nav>
+			<div id="hamburger" class="hamburger">
+				<div class="burger"></div>
+				<div class="burger"></div>
+				<div class="burger"></div>
+			</div>
+		</nav>
+	</header>
 	<!-- MAIN CONTENT -->
 	<main id="main" class="main">
 		<div class="main-desc">
@@ -80,5 +80,13 @@
 			<p>Clinic is located inside Britanico and Associates Financial Services</p>
 		</div>
 	</footer>
+
+<script>
+	const burger = document.getElementById('hamburger')
+	const navMenu = document.getElementById('navMenu')
+	burger.addEventListener('click', () => {
+		navMenu.classList.toggle('active')
+	})
+</script>
 </body>
 </html>

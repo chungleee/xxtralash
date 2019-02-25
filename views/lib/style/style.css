@@ -25,9 +25,11 @@ lightgrey: #E6E6E7
 
 body {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 a {
+	color: #30353A;
 	text-decoration: none;
 }
 
@@ -73,10 +75,32 @@ a {
 	letter-spacing: .2rem;
 }
 
+.navigation-menu {
+	display: none;
+	position: absolute;
+	letter-spacing: .2rem;
+	top: 4rem;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+.navigation-menu li {
+	background-color: #F1EBEA;
+	border-bottom: 1px solid #30353A;
+	padding: 1.5rem 0;
+}
+
+.navigation-menu li:nth-child(1) {
+	border-top: 1px solid #30353A;
+}
+
 .hamburger {
 	margin-left: auto;
 	padding: 0 1rem;
 }
+
 
 .burger {
 	height: .1rem;
@@ -217,6 +241,36 @@ a {
 		padding-left: 2.5rem;
 	}
 
+	.navigation-menu {
+		display: flex;
+		margin-left: 35rem;
+		position: static;
+	}
+
+	.navigation-menu li, .navigation-menu li:nth-child(1) {
+		border: none;
+		border-top: none;
+		padding: 0;
+		padding-right: 2.5rem;
+	}
+
+	/* .navigation-menu {
+		display: flex;
+		list-style: none;
+		margin-left: auto;
+		padding-right: 2.5rem;
+	} */
+
+	/* .navigation-menu li {
+		margin-right: 2rem;
+		text-transform: uppercase;
+		letter-spacing: .2rem;
+	} */
+
+	.hamburger {
+		display: none;
+	}
+
 	.main-desc {
 		text-align: center;
 	}
@@ -230,7 +284,17 @@ a {
 		padding-left: 3rem;
 	}
 
+	.navigation-menu {
+		margin-left: 55rem;
+	}
+
 	.services-card {
 		width: 35rem;
 	}
+}
+
+/* modifier */
+
+.active {
+	display: block;
 }
