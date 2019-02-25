@@ -25,9 +25,11 @@ lightgrey: #E6E6E7
 
 body {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 a {
+	color: #30353A;
 	text-decoration: none;
 }
 
@@ -81,6 +83,7 @@ a {
 	margin-left: auto;
 	padding: 0 1rem;
 }
+
 
 .burger {
 	height: .1rem;
